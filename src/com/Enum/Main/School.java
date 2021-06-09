@@ -7,6 +7,9 @@ public class School {
     public Dni returnDay(){
         return dni;
     }
+    public int returnChislo(){
+        return dni.GetChislo();
+    }
     // устанавливает день недели
     public void setDay(Dni day){
         dni=day;

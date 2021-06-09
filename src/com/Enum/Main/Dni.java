@@ -21,4 +21,7 @@ public enum Dni {
     public String GetDay(){
         return title;
     }
+    public int GetChislo(){
+        return c;
+    }
 }
